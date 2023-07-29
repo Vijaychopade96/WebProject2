@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Helvetica;
+    background: #053a3d;
+}
+.container{
+    margin: 80px 70px 70px ;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+table{
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: aliceblue;
+    border: 1px solid #1a2929;
+}
+td,th{
+    text-align: center;
+    padding: 8px;
+    border-right: 1px solid #1a2929;
+}
+td{
+    font-size: 12px;
+
+}
+thead th{
+    color: #ffffff;
+    background: #1a2929;
+}
+tr:nth-child(even){
+    background: #9edfd3;
+}

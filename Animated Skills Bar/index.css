@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 5px 5px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.skill-bars{
+    padding: 25px 30px;
+    width: 900px;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    box-shadow: 4px 4px black;
+}
+.bar{
+    margin: 20px 0;
+
+}
+.bar:first-child{
+    margin-top: 0px;
+
+}
+.info{
+    margin-bottom: 5px;
+}
+.info span{
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText{
+    100%{
+        opacity: 1;
+    }
+}
+.progess-line{
+    
+}
